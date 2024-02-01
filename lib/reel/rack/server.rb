@@ -101,7 +101,7 @@ module Reel
       end
 
       def status_symbol(status)
-        if status.is_a?(Fixnum)
+        if status.is_a?(Integer)
           Reel::Response::STATUS_CODES[status].downcase.gsub(/\s|-/, '_').to_sym
         else
           status.to_sym

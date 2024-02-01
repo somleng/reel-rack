@@ -1,2 +1,2 @@
 require 'reel/rack/version'
-require 'rack/handler/reel'
+require 'rackup/handler/reel'

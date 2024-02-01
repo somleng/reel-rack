@@ -20,8 +20,9 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "reel", ">= 0.5.0"
   spec.add_runtime_dependency "rack", ">= 1.4.0"
+  spec.add_runtime_dependency "rackup"
 
-  spec.add_development_dependency "bundler", "~> 1.3"
+  spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
 end

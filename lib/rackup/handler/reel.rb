@@ -1,7 +1,8 @@
-require 'celluloid/current'
 require 'reel/rack/server'
+require 'celluloid/autostart'
+require 'rackup'
 
-module Rack
+module Rackup
   module Handler
     class Reel
       DEFAULT_OPTIONS = {
